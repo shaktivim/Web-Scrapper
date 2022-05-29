@@ -9,3 +9,11 @@ web scrapping involes steps are:
 
 Note: With web scrapping, you can get only initial loaded data from a given url, to get data that can be seen by 
     scrolling down, aumation is required to be implemented
+
+1. To use npm modules(like request, cheerio), you need to instal npm
+2. To install npm, use command --> npm init -y
+3. To add request and cheerio modules, install them with below commands
+        For request module --> npm i request
+        For cheerio module --> npm i cheerio
+ImpNote: You can also install request module or any other module (along with npm) without step 1(just use command --> npm i request),
+npm will instal along with by default

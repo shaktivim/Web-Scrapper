@@ -2,7 +2,8 @@
 // Get the highest wicket taker and wickets of the winning team from a given url
 const request = require("request");
 const cheerio = require('cheerio');
-let url = 'https://www.espncricinfo.com/series/ipl-2020-21-1210595/chennai-super-kings-vs-kings-xi-punjab-53rd-match-1216506/full-scorecard';
+// const url = 'https://www.espncricinfo.com/series/ipl-2020-21-1210595/chennai-super-kings-vs-kings-xi-punjab-53rd-match-1216506/full-scorecard';
+const url = 'https://www.espncricinfo.com/series/indian-premier-league-2022-1298423/rajasthan-royals-vs-royal-challengers-bangalore-qualifier-2-1312199/full-scorecard';
 
 request(url, cb);
 
@@ -60,7 +61,7 @@ function extractHtml(html){
                     highestWickets = wickets;
                 }
             }
-            console.log("Winner Team is: " + winTeam + ", Hihgest wicket Taken is: " + highestWickets +  " by " + hwtName);
+            // console.log("Winner Team is: " + winTeam + ", Hihgest wicket Taken is: " + highestWickets +  " by " + hwtName);
             console.log(`Winner team is: ${winTeam}, Highest wicket taken is ${highestWickets} by ${hwtName}`);
 
         }
