@@ -1,0 +1,11 @@
+
+web scrapping is taking data out from a particular server or wesite and presenting it in required format
+web scrapping involes steps are:
+1. Sending HTTP request to a server from Node js( or any other language)
+2. Receiving HTTP request(response is always received in form of html)
+3. Parsing(reading) the received response
+4. Exctracting the data from parsed response
+5. Storing the received data after exctraction into desired format (excel or pdf or table etc.)
+
+Note: With web scrapping, you can get only initial loaded data from a given url, to get data that can be seen by 
+    scrolling down, aumation is required to be implemented
